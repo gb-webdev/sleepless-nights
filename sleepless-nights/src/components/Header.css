@@ -1,0 +1,6 @@
+.header-div-wrap {
+    height: 100%;
+    width: auto;
+    display: flex;
+    background: linear-gradient(45deg, rgba(255, 128, 0, 1), rgba(255, 69, 0, 1), rgba(184, 134, 11, 1), rgba(15, 20, 75, 1), rgba(93, 48, 139, 1));
+}

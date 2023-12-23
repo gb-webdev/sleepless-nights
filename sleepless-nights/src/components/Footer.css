@@ -1,0 +1,8 @@
+.footer-wrap {
+    height: 100%;
+    width: auto;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
