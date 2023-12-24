@@ -8,20 +8,20 @@ const Header = () => {
   return (
     <Nav className='header-div-wrap'>
 
-      <NavItem>
+      <NavItem className='logo-div'>
         <NavLink to='/'>
           <img className='logo' src={logo}/>
         </NavLink>
       </NavItem>
 
-      <NavItem>
-        <NavLink to='/mytracks'>
+      <NavItem className='header-item'>
+        <NavLink to='/mytracks' className='header-link'>
           <h2>Tracks</h2>
         </NavLink>
       </NavItem>
 
-      <NavItem>
-        <NavLink to='/about'>
+      <NavItem className='header-item'>
+        <NavLink to='/about' className='header-link'>
           <h2>About me</h2>
         </NavLink>
       </NavItem>

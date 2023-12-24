@@ -1,5 +1,5 @@
-.home-div-wrap {
-    background-image: url('../assets/retro.mp4');
+.home-wrap {
+    background: linear-gradient(rgba(9, 9, 6, 0.4), rgba(8, 7, 7, 0.6)), url('../assets/black-bg.png');
     background-size: cover;
     height: 100vh;
     min-height: 100vh;
