@@ -16,13 +16,13 @@ const Header = () => {
 
       <NavItem className='header-item'>
         <NavLink to='/mytracks' className='header-link'>
-          <h2>Tracks</h2>
+          <h2>Tracks | ミュージック</h2>
         </NavLink>
       </NavItem>
 
       <NavItem className='header-item'>
         <NavLink to='/about' className='header-link'>
-          <h2>About me</h2>
+          <h2>About me | アバウト・ミー</h2>
         </NavLink>
       </NavItem>
 

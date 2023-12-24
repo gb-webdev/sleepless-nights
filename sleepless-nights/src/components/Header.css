@@ -1,5 +1,5 @@
 .header-div-wrap {
-    background: linear-gradient(rgba(9, 9, 6, 0.6), rgba(8, 7, 7, 0.25)), url('../assets/header-bg.png');
+    background: linear-gradient(rgba(9, 9, 6, 0.00), rgba(8, 7, 7, 0.3)), url('../assets/header-bg.png');
     height: 100%;
     width: auto;
     display: flex;
@@ -20,21 +20,23 @@ li
 }
 
 .logo-div {
-    padding-right: 48%;
+    padding-right: 30%;
 }
 
 
 
 .header-item .header-link { 
-    color: #fff;
+    color: rgb(251, 219, 238);
     text-shadow:
-      0 0 7px #fff,
-      0 0 10px #fff,
-      0 0 42px rgb(245, 87, 182),
-      0 0 42px rgb(245, 87, 182),
-      0 0 82px rgb(253, 86, 186),
-      0 0 92px rgb(239, 115, 189),
-      0 0 102px rgb(249, 95, 187),
-      0 0 151px rgb(249, 85, 183);
-    animation: flicker 1.5s infinite
+      0 0 7px rgb(253, 204, 233),
+      0 0 10px rgb(252, 179, 223),
+      0 0 42px rgb(251, 167, 218),
+      0 0 42px rgb(253, 145, 210),
+      0 0 82px rgb(253, 97, 191),
+      0 0 92px rgb(255, 94, 190),
+      0 0 102px rgb(252, 45, 169),
+      0 0 151px rgb(250, 42, 167);
+    &:hover {
+        color: rgb(255, 255, 255);
+    }
 }
