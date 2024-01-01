@@ -1,10 +1,11 @@
 import React from 'react'
 import './Home.css'
+import design from '../assets/SN-design.png'
 
 const Home = () => {
   return (
     <div className='home-wrap'>
-      <h1></h1>
+      <img className='main-design' src={design} alt='Sleepless Nights logo'/>
     </div>
   )
 }
