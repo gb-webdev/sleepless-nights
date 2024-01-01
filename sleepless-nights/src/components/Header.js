@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { Nav, NavItem } from 'reactstrap'
 import './Header.css'
-import logo from '../assets/sleep-logo.png'
+import logo from '../assets/SN-logo.png'
 
 const Header = () => {
   return (

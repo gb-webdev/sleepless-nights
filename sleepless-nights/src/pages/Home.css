@@ -11,3 +11,9 @@
     align-items: center;
     font-weight: bolder;
 }
+
+.main-design {
+    height: 50vh;
+    width: auto;
+    padding-top: 150px;
+}
